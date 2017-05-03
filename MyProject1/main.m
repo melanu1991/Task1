@@ -118,5 +118,7 @@ int main(int argc, const char * argv[]) {
     
     NSLog(@"%@",user1.address);
     
+    NSLog(@"User10 city: %@ and country: %@", user10.city, user10.country);
+    
     return 0;
 }

@@ -86,11 +86,11 @@
 }
 
 -(NSString*)country{
-    return [self.address valueForKey:@"country"];
+    return [[[self.address valueForKey:@"country"]copy]autorelease];
 }
 
 -(NSString*)city{
-    return [self.address valueForKey:@"city"];
+    return [[[self.address valueForKey:@"city"]copy]autorelease];
 }
 
 //Переопределение гет/сет followers
